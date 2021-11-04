@@ -1,0 +1,9 @@
+<apex:page standardController="Account">
+    <!-- Third change changed the standard controller to Account -->
+    <!-- Third change also changed the h1 label below -->
+    <h1>
+        Third Change implemented in Dev1
+    </h1>
+	{! Account.Name }
+
+</apex:page>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>swong@copado.com</contactEmail>
+    <label>Copado DX</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIC8TCCAdkCFArMTFrlEPL6N5G0rCX74m95J6XGMA0GCSqGSIb3DQEBCwUAMDQxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKDAZDb3BhZG8xFDASBgNVBAMMC3d3dy5jb3BhLmRvMCAXDTIxMTEwMTA0MTI0NloYDzIxMzEwNTA5MDQxMjQ2WjA0MQswCQYDVQQGEwJVUzEPMA0GA1UECgwGQ29wYWRvMRQwEgYDVQQDDAt3d3cuY29wYS5kbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANCTVdQ3EnzVdR83hTy7Nns7ZGrE84EatGFeD7Z+PXz+ql3G2OMqPYaLyG9fnIVWx0afQO6IyEx1D20/HnL362k4+598bbAAgiH0godeJzazo+ZTnzmMXwd8z53ka6lD9J0M+qRvtfXYMtxmfWGneAM1YRVs1NDH3Tn2sprDQDxVPznmFHB95qp/OLTt/xnHRWdw2kEAAbLpJ6oy2d+ifw66b4LmTTLQYNi9mRJITzC8Em1AdS/uJkmfyblUvSlYU/VsFTtrxJB2q75oBwVNkCfk3JbM4QZZ9refMBDeEnPGSVmoqCrNyDadGQELz9UmcGKAjPbMeLrgredfT+mW1t8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAi5Ks7XmoQpUAVLh+YebUfrv1yhYYzRvBM1crA1PoZR+79O3puWpGodWSzE8IjgVilaMuvGLY0bY+Qyiph3/nH2BJmmYx8euWjJgHWG00JfBO52WG1HkQMYQGfjAwVAF1gs/wUJVlNQcSgdX256u/+gBlajB1CkA5CQIWF2c5jTJpK2GHmp+mIrjR85ZOtOz3kjgPQ+K7VzoANlil22xkiH1S6tbPCuG23qKbSYTOTkEzLyrQIxELs8oYYedgUNUw7x7737yc+qM/DgT3kaTi8KHqjmJyGIicrV380YPzfgQkbLagYMnSueP9ZRAIM3EQXBdAiXlwd8q42/Gwu54l9g==</certificate>
+        <consumerKey>3MVG9rnryk9FxFMX.Ol9n.__jZ33ZO3fPd.N7OJlco25r1mnt2r61.YL4BbCrGeXEMMW8UwbfH.2DHJA9Dx3i</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
